@@ -5,13 +5,6 @@ weight: 1
 chapter: false
 ---
 
----
-title: "Báo cáo thực tập"
-date: "2025-09-22"
-weight: 1
-chapter: false
----
-
 # Báo cáo thực tập
 
 ### Thông tin sinh viên:
