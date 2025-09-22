@@ -5,17 +5,25 @@ weight: 1
 chapter: false
 ---
 
+---
+title: "Báo cáo thực tập"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
+---
+
 # Báo cáo thực tập
+
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Đỗ Đăng Khoa
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0783759971
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** khoado7577@gmail.com
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Đại Học FPT
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Ngành:** Kỹ thuật phần mềm/ Thiết kế vi mạch
 
 &emsp; **Lớp:** AWS082025
 
