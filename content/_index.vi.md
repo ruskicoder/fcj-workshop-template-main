@@ -1,13 +1,13 @@
 ---
 title: "Báo cáo thực tập"
-date: "`r Sys.Date()`"
+date: "2025-09-22"
 weight: 1
 chapter: false
 ---
 
 ---
 title: "Báo cáo thực tập"
-date: "`r Sys.Date()`"
+date: "2025-09-22"
 weight: 1
 chapter: false
 ---
