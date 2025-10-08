@@ -15,7 +15,7 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 2:** [Thiết lập Môi trường Phát triển và AWS Cloud Day 2025](1.2-week2/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 3:** [Cơ bản về VPC và EC2 với Triển khai Website Tĩnh](1.3-week3/)
 
 **Tuần 4:** [Làm công việc C...](1.4-week4/)
 
