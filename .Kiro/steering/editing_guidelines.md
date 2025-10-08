@@ -8,30 +8,32 @@ Before updating any week's worklog content, the AI MUST ask the user for the fol
 
 ### Required Information to Collect:
 
-1. **Week Date Range**: What are the start and end dates for this week? (e.g., "Week X is from DD-DD/MMM/YYYY")
+1. **Week Title**: What is a descriptive title that summarizes the main activities of this week? (e.g., "Development Environment Setup and AWS Cloud Day 2025")
 
-2. **Daily Activities**: For each day of the week, what activities were performed?
+2. **Week Date Range**: What are the start and end dates for this week? (e.g., "Week X is from DD-DD/MMM/YYYY")
+
+3. **Daily Activities**: For each day of the week, what activities were performed?
    - Day 1: [activities]
    - Day 2: [activities]
    - Day 3: [activities]
    - etc.
 
-3. **Learning Outcomes**: What did you learn this week?
+4. **Learning Outcomes**: What did you learn this week?
    - Technical skills acquired
    - AWS services explored
    - Tools and technologies used
 
-4. **Challenges**: What challenges or difficulties did you face?
+5. **Challenges**: What challenges or difficulties did you face?
 
-5. **Achievements**: What did you accomplish or complete?
+6. **Achievements**: What did you accomplish or complete?
 
-6. **Additional Context**:
+7. **Additional Context**:
    - Any GitHub repos created?
    - Any specific AWS services used? (EC2, S3, Lambda, etc.)
    - Any workshops attended?
    - Any blog translations completed?
 
-7. **Images**: Do you have any screenshots or images to include? If yes, what should they show?
+8. **Images**: Do you have any screenshots or images to include? If yes, what should they show?
 
 ### AI Behavior Rules:
 

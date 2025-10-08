@@ -11,6 +11,9 @@ Ask the user for the following information:
 ```
 I'm ready to update Week X worklog. Please provide the following information:
 
+**Week Title:**
+- What is a descriptive title for this week that summarizes the main activities? (e.g., "Development Environment Setup and AWS Cloud Day 2025")
+
 **Week Date Range:** 
 - When did Week X start and end? (e.g., "Week X is from DD-DD/MMM/YYYY")
 
@@ -22,7 +25,8 @@ What did you do each day of the week?
 - Day 4 (Date): 
 - Day 5 (Date): 
 - Day 6 (Date): 
-- Day 7 (Date): [if applicable]
+
+**IMPORTANT:** Each day must be listed separately in the worklog table. Do not group days together (e.g., "Day 1-2"). If activities span multiple days, distribute them across individual day entries or fill in reasonable details for each day.
 
 **Learning Outcomes:** 
 - What did you learn this week?
@@ -89,29 +93,34 @@ Does this look correct? Would you like to add or modify anything?
 
 Once user confirms, proceed with:
 
-1. Update English worklog file (`_index.md`)
+1. Update main Worklog index files with week title
+   - Update `content/1-Worklog/_index.md` with descriptive week title in English
+   - Update `content/1-Worklog/_index.vi.md` with descriptive week title in Vietnamese
+   - Format: `**Week X:** [Descriptive Title](1.X-weekX/)`
+
+2. Update English worklog file (`_index.md`)
    - Set correct `weight` parameter (must match week number)
    - Set correct date in front matter
    - Update all content sections based on user input
 
-2. Update Vietnamese worklog file (`_index.vi.md`)
+3. Update Vietnamese worklog file (`_index.vi.md`)
    - Ensure identical `weight` parameter
    - Ensure identical date
    - Translate content appropriately
 
-3. Update blog translation files (if applicable)
+4. Update blog translation files (if applicable)
    - English version
    - Vietnamese version
 
-4. Update workshop files (if applicable)
+5. Update workshop files (if applicable)
    - Relevant workshop sections
 
-5. Create image placeholders
+6. Create image placeholders
    - Create `static/images/weekX/` directory
    - Add README.md with image instructions
    - Reference images in worklog content
 
-6. Validate Hugo build
+7. Validate Hugo build
    - Run `hugo --quiet` to check for errors
    - Verify navigation order is correct
 
