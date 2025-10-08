@@ -4,10 +4,29 @@ This directory contains guidelines and reference documents for maintaining the H
 
 ## Available Documents
 
+### 0. AI_WORKFLOW_CHECKLIST.md (START HERE)
+**Purpose:** Step-by-step mandatory checklist for AI when updating worklog content
+
+**Key Topics:**
+- Mandatory pre-update checklist
+- Information gathering template
+- Validation steps
+- Confirmation process
+- Implementation steps
+- Critical rules (what to never do / always do)
+- Example user interaction flow
+
+**Use When:** 
+- **EVERY TIME** before updating any week's worklog
+- This is the PRIMARY document to follow for all worklog updates
+
+---
+
 ### 1. editing_guidelines.md
 **Purpose:** Comprehensive guide for editing and documenting worklog content
 
 **Key Topics:**
+- **CRITICAL: User Information Gathering Requirement** (MUST READ FIRST)
 - General documentation principles
 - Hugo front matter format
 - Worklog content structure
@@ -16,6 +35,8 @@ This directory contains guidelines and reference documents for maintaining the H
 - Quality checklist
 
 **Use When:** Creating or updating any worklog content
+
+**IMPORTANT:** This document contains MANDATORY requirements for AI to ask users for specific worklog information before proceeding with any updates.
 
 ---
 

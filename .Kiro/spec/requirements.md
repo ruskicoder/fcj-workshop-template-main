@@ -33,6 +33,8 @@ Personalization and content customization of an existing Hugo static website to 
 - **AI-Assisted Workflow:** Utilize AI-DLC methodology for efficient content management
 - **Selective Editing:** Update only specified sections while preserving template structure
 - **Content Guidance:** Provide guidance on how to edit webpage content for worklog reporting
+- **User Information Gathering:** AI MUST ask user for specific worklog details before updating any content
+- **No Content Fabrication:** AI must never assume or fabricate worklog activities without explicit user input
 
 ### 4. Technical Constraints
 

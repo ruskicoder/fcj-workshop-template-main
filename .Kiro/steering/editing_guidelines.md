@@ -1,12 +1,83 @@
 # Hugo Worklog Editing Guidelines
 
+## CRITICAL: User Information Gathering Requirement
+
+**MANDATORY STEP BEFORE ANY WORKLOG UPDATE:**
+
+Before updating any week's worklog content, the AI MUST ask the user for the following specific information:
+
+### Required Information to Collect:
+
+1. **Week Date Range**: What are the start and end dates for this week? (e.g., "Week X is from DD-DD/MMM/YYYY")
+
+2. **Daily Activities**: For each day of the week, what activities were performed?
+   - Day 1: [activities]
+   - Day 2: [activities]
+   - Day 3: [activities]
+   - etc.
+
+3. **Learning Outcomes**: What did you learn this week?
+   - Technical skills acquired
+   - AWS services explored
+   - Tools and technologies used
+
+4. **Challenges**: What challenges or difficulties did you face?
+
+5. **Achievements**: What did you accomplish or complete?
+
+6. **Additional Context**:
+   - Any GitHub repos created?
+   - Any specific AWS services used? (EC2, S3, Lambda, etc.)
+   - Any workshops attended?
+   - Any blog translations completed?
+
+7. **Images**: Do you have any screenshots or images to include? If yes, what should they show?
+
+### AI Behavior Rules:
+
+- ❌ **NEVER** proceed with updating worklog content without first collecting this information from the user
+- ❌ **NEVER** assume or fabricate worklog activities
+- ❌ **NEVER** use generic placeholder content without user confirmation
+- ✅ **ALWAYS** ask the user for specific details before writing content
+- ✅ **ALWAYS** confirm the information with the user before finalizing the update
+- ✅ **ALWAYS** allow the user to modify or add to the content during the process
+
+### Example User Interaction:
+
+```
+AI: "I'm ready to update Week X worklog. Please provide the following information:
+
+**Week Date Range:** When did Week X start and end?
+
+**Daily Activities:** What did you do each day of the week?
+- Day 1 (Date):
+- Day 2 (Date):
+- Day 3 (Date):
+[etc.]
+
+**Learning Outcomes:** What did you learn this week?
+
+**Challenges:** What difficulties did you encounter?
+
+**Achievements:** What did you accomplish?
+
+**AWS Services Used:** Which AWS services did you work with?
+
+**Images:** Do you have any screenshots to include? If yes, please describe what they should show.
+
+**Blog Translations:** Did you translate any blogs this week?
+
+**Workshops:** Did you attend any workshops this week?"
+```
+
 ## General Documentation Principles
 
 - Create placeholder for images when documenting worklog entries
-- Document as if documenting actual worklog based on information provided
+- Document based ONLY on information provided by the user
 - Add necessary details to fulfill the worklog requirements, but do not exaggerate
 - Maintain professional tone throughout all documentation
 - Ensure consistency between English and Vietnamese versions
+- Never fabricate or assume activities without user confirmation, however if necessary add a few more details to fulfill the worklog, but do not exaggerate it.
 
 ## Hugo Front Matter Format
 
