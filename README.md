@@ -18,6 +18,7 @@ A comprehensive Hugo template for creating professional internship worklog websi
 You'll need Hugo installed on your system. If you don't have it:
 
 **Windows:**
+
 ```bash
 # Using Chocolatey
 choco install hugo-extended
@@ -26,12 +27,14 @@ choco install hugo-extended
 ```
 
 **macOS:**
+
 ```bash
 # Using Homebrew
 brew install hugo
 ```
 
 **Linux:**
+
 ```bash
 # Using snap
 sudo snap install hugo
@@ -42,23 +45,48 @@ sudo snap install hugo
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/fcj-workshop-template-main.git
    cd fcj-workshop-template-main
    ```
 
 2. **Initialize the theme submodule**
+
    ```bash
    git submodule update --init --recursive
    ```
 
 3. **Run the development server**
+
    ```bash
    hugo server
    ```
 
 4. **View your site**
-   Open your browser and go to `http://localhost:1313`
+   Open your browser and go to `http://localhost:1313/workshop-template/`
+
+5. **Share your local site (Optional)**
+
+   If you want to share your localhost with others for quick preview:
+
+   **Using VS Code Port Forwarding:**
+   - In VS Code, open the "Ports" panel (View > Ports or Ctrl+`)
+   - Click "Forward a Port" and enter `1313`
+   - Set visibility to "Public"
+   - Copy the forwarded address (e.g., `https://xyz-1313.preview.app.github.dev`)
+   - Share this link with others for temporary access
+
+   **Using ngrok:**
+
+   ```bash
+   # Install ngrok from https://ngrok.com/download
+   ngrok http 1313
+   ```
+
+   Share the URL with `/workshop-template/` appended: `https://abc123.ngrok.io/workshop-template/`
+
+   **Note:** These forwarding methods are temporary and only work while your local server is running.
 
 ## 📝 Customization Guide
 
@@ -67,6 +95,7 @@ sudo snap install hugo
 Edit the main index files with your information:
 
 **English Version** (`content/_index.md`):
+
 ```markdown
 ### Student Information:
 &emsp; **Full Name:** Your Full Name
@@ -81,6 +110,7 @@ Edit the main index files with your information:
 ```
 
 **Vietnamese Version** (`content/_index.vi.md`):
+
 ```markdown
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Tên đầy đủ của bạn
@@ -90,6 +120,7 @@ Edit the main index files with your information:
 ```
 
 **Site Configuration** (`config.toml`):
+
 ```toml
 author = "your.email@example.com"
 ```
@@ -144,12 +175,14 @@ content/
 ### Adjusting the Structure
 
 **To add more weeks:**
+
 1. Copy an existing week folder (e.g., `1.1-Week1/`)
 2. Rename it (e.g., `1.13-Week13/`)
 3. Update the front matter `weight` and `pre` values
 4. Update parent index files to include new week
 
 **To remove sections:**
+
 1. Delete the unwanted folder
 2. Remove references from main index files
 3. Update navigation weights if needed
@@ -159,9 +192,11 @@ content/
 ### Local Development
 
 1. **Start development server**
+
    ```bash
    hugo server -D
    ```
+
    The `-D` flag includes draft content.
 
 2. **Make your changes**
@@ -171,9 +206,11 @@ content/
    Changes auto-reload at `http://localhost:1313`
 
 4. **Build for production**
+
    ```bash
    hugo
    ```
+
    This generates the `public/` folder with your static site.
 
 ### Content Updates
@@ -190,11 +227,13 @@ content/
 1. **Create GitHub repository** (if not already done)
 
 2. **Update config.toml**
+
    ```toml
    baseURL = "https://yourusername.github.io/repository-name/"
    ```
 
 3. **Create GitHub Actions workflow** (`.github/workflows/hugo.yml`):
+
    ```yaml
    name: Deploy Hugo site to Pages
    
@@ -231,26 +270,31 @@ content/
 ### Amazon S3 Static Website
 
 1. **Build your site**
+
    ```bash
    hugo --minify
    ```
 
 2. **Create S3 bucket**
+
    ```bash
    aws s3 mb s3://your-website-bucket-name
    ```
 
 3. **Configure bucket for static website hosting**
+
    ```bash
    aws s3 website s3://your-website-bucket-name --index-document index.html --error-document 404.html
    ```
 
 4. **Upload files**
+
    ```bash
    aws s3 sync public/ s3://your-website-bucket-name --delete
    ```
 
 5. **Set bucket policy for public access**
+
    ```json
    {
      "Version": "2012-10-17",
@@ -272,15 +316,18 @@ content/
 ## 🛠️ Troubleshooting
 
 **Hugo build errors:**
+
 - Check your markdown front matter syntax
 - Ensure all internal links are correct
 - Verify image paths start with `/`
 
 **Theme issues:**
+
 - Run `git submodule update --init --recursive`
 - Check that the theme folder exists in `themes/hugo-theme-learn/`
 
 **Deployment issues:**
+
 - Verify your `baseURL` in `config.toml`
 - Check that the `public/` folder contains your built site
 - Ensure proper permissions for S3 bucket or GitHub Pages
