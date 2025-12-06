@@ -6,92 +6,66 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
+### Mục tiêu tuần 4
 
-* Tìm hiểu sâu về AWS VPC và các khái niệm networking
-* Hiểu về dịch vụ lưu trữ S3 và best practices
-* Học về dịch vụ cơ sở dữ liệu RDS
-* Thực hành hands-on labs với các dịch vụ AWS cốt lõi
+* Tìm hiểu sâu hơn về AWS VPC và các khái niệm networking
+* Học về dịch vụ lưu trữ Amazon S3 và các best practices
+* Khám phá các dịch vụ database của AWS (RDS)
+* Tiếp tục thực hành với các dịch vụ AWS cốt lõi
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã hoàn thành trong tuần
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| Thứ Hai (29/9) | - Ôn tập các khái niệm EC2 tuần trước <br> - Học AWS VPC cơ bản <br>&emsp; + Subnets và CIDR blocks <br>&emsp; + Route tables <br>&emsp; + Internet Gateway | 29/09/2025 | 29/09/2025 | <https://docs.aws.amazon.com/vpc/> |
-| Thứ Ba (30/9) | - Tiếp tục tìm hiểu sâu VPC <br>&emsp; + Security Groups <br>&emsp; + Network ACLs <br>&emsp; + NAT Gateway <br> - Học về VPC peering | 30/09/2025 | 30/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ Tư (1/10) | - Giới thiệu Amazon S3 <br>&emsp; + Buckets và objects <br>&emsp; + Storage classes <br>&emsp; + Versioning <br> - Bảo mật và kiểm soát truy cập S3 | 01/10/2025 | 01/10/2025 | <https://docs.aws.amazon.com/s3/> |
-| Thứ Năm (2/10) | - **Thực hành:** S3 hands-on lab <br>&emsp; + Tạo S3 bucket <br>&emsp; + Upload và quản lý objects <br>&emsp; + Cấu hình bucket policies <br>&emsp; + Bật versioning | 02/10/2025 | 02/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ Sáu (3/10) | - Học Amazon RDS cơ bản <br>&emsp; + Database engines (MySQL, PostgreSQL) <br>&emsp; + Multi-AZ deployments <br>&emsp; + Read replicas <br> - RDS backup và restore | 03/10/2025 | 03/10/2025 | <https://docs.aws.amazon.com/rds/> |
-| Thứ Hai (6/10) | **Ngày làm việc tại văn phòng** <br> - VPC hands-on lab toàn diện <br>&emsp; + Tạo custom VPC với public/private subnets <br>&emsp; + Cấu hình route tables và gateways <br>&emsp; + Thiết lập security groups và NACLs <br> - Deploy EC2 instances trong custom VPC <br> - Test kết nối giữa các subnets | 06/10/2025 | 06/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ Hai (30/9) | - Ôn tập các khái niệm EC2 tuần trước<br>&emsp;+ Các loại instance và sizing<br>&emsp;+ Cấu hình security groups<br>- Nghiên cứu tài liệu AWS về VPC cơ bản | 30/09/2025 | 30/09/2025 | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/) |
+| Thứ Ba (1/10) | - Học các khái niệm cơ bản về VPC<br>&emsp;+ Subnets (public vs private)<br>&emsp;+ Route tables<br>&emsp;+ Internet Gateway<br>&emsp;+ NAT Gateway | 01/10/2025 | 01/10/2025 | [AWS VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/) |
+| Thứ Tư (2/10) | - Nghiên cứu dịch vụ Amazon S3<br>&emsp;+ Tạo và quản lý bucket<br>&emsp;+ Các khái niệm object storage<br>&emsp;+ Các storage classes của S3<br>&emsp;+ Kiểm soát truy cập và permissions | 02/10/2025 | 02/10/2025 | [AWS S3 Documentation](https://docs.aws.amazon.com/s3/) |
+| Thứ Năm (3/10) | - Tiếp tục tìm hiểu sâu về S3<br>&emsp;+ Versioning và lifecycle policies<br>&emsp;+ Các tùy chọn mã hóa S3<br>&emsp;+ Static website hosting | 03/10/2025 | 03/10/2025 | [AWS S3 Best Practices](https://docs.aws.amazon.com/AmazonS3/latest/userguide/best-practices.html) |
+| Thứ Sáu (4/10) | - Giới thiệu về AWS RDS<br>&emsp;+ Các tùy chọn database engine<br>&emsp;+ Các loại RDS instance<br>&emsp;+ Khái niệm backup và restore<br>- Ôn tập và củng cố kiến thức tuần | 04/10/2025 | 04/10/2025 | [AWS RDS Documentation](https://docs.aws.amazon.com/rds/) |
 
-### Kết quả đạt được tuần 4:
+### Kết quả đạt được tuần 4
 
-* Hiểu toàn diện về kiến trúc AWS VPC:
-  * CIDR notation và IP addressing
-  * Public vs private subnets
-  * Cấu hình route table
-  * Sự khác biệt giữa Internet Gateway và NAT Gateway
-  * VPC peering cho kết nối giữa các VPC
+* **Thành thạo VPC Networking**
+  * Hiểu kiến trúc VPC và các thành phần
+  * Nắm được sự khác biệt giữa public và private subnets
+  * Hiểu các khái niệm routing với route tables
+  * Hiểu cách hoạt động của Internet Gateway và NAT Gateway
 
-* Nắm vững các thành phần bảo mật VPC:
-  * Security Groups (stateful firewall)
-  * Network ACLs (stateless firewall)
-  * Sự khác biệt giữa Security Groups và NACLs
-  * Best practices cho network security
+* **Thành thạo Amazon S3**
+  * Học các khái niệm lưu trữ S3 và use cases
+  * Hiểu các storage classes khác nhau của S3 (Standard, IA, Glacier)
+  * Thực hành tạo bucket và quản lý objects
+  * Cấu hình bucket policies và access controls
+  * Khám phá S3 versioning và lifecycle management
+  * Học về các tùy chọn mã hóa S3 (SSE-S3, SSE-KMS)
 
-* Học được dịch vụ lưu trữ Amazon S3:
-  * Tạo và quản lý S3 bucket
-  * Khái niệm object storage
-  * Storage classes (Standard, IA, Glacier)
-  * Versioning và lifecycle policies
-  * Bucket policies và IAM permissions
+* **Giới thiệu về Database Services**
+  * Có cái nhìn tổng quan về dịch vụ AWS RDS
+  * Hiểu các tùy chọn database engine khác nhau (MySQL, PostgreSQL, v.v.)
+  * Học về sizing và cấu hình RDS instance
+  * Khám phá khả năng backup và restore
 
-* Hoàn thành S3 hands-on lab:
-  * Tạo và cấu hình S3 buckets
-  * Upload objects và quản lý permissions
-  * Triển khai bucket policies để kiểm soát truy cập
-  * Bật versioning để bảo vệ dữ liệu
+* **Phát triển kỹ năng thực hành**
+  * Cải thiện hiểu biết về kiến trúc networking của AWS
+  * Nâng cao khả năng điều hướng tài liệu AWS hiệu quả
+  * Chuẩn bị cho các bài lab thực hành tuần tới
 
-![Cấu hình S3 Bucket](/images/week4/s3-bucket-setup.png)
-*Cấu hình S3 bucket với versioning được bật*
+### Các thách thức gặp phải
 
-* Hiểu về Amazon RDS cơ bản:
-  * Lợi ích của managed database service
-  * Các database engines được hỗ trợ
-  * Multi-AZ cho high availability
-  * Read replicas cho performance scaling
-  * Automated backups và point-in-time recovery
+* Các khái niệm routing trong VPC ban đầu khá phức tạp, đặc biệt là hiểu mối quan hệ giữa route tables, subnets và gateways
+* S3 bucket policies và IAM permissions cần chú ý cẩn thận để tránh các vấn đề về quyền truy cập
+* Cân bằng giữa học lý thuyết và thời gian thực hành
 
-* Hoàn thành thành công VPC lab toàn diện vào ngày làm việc (6/10):
-  * Tạo custom VPC với CIDR 10.0.0.0/16
-  * Cấu hình public subnet (10.0.1.0/24) và private subnet (10.0.2.0/24)
-  * Thiết lập Internet Gateway cho public subnet
-  * Cấu hình NAT Gateway cho private subnet truy cập internet
-  * Tạo và cấu hình route tables
-  * Deploy EC2 instances trong cả hai subnets
-  * Test kết nối và security group rules
+### Bài học quan trọng
 
-![Kiến trúc VPC](/images/week4/vpc-architecture.png)
-*Kiến trúc custom VPC với public và private subnets*
+* VPC là nền tảng cho kiến trúc networking và security của AWS
+* S3 rất linh hoạt ngoài việc lưu trữ đơn giản - có thể host static websites, làm data lake, v.v.
+* Thiết kế subnet phù hợp (public vs private) rất quan trọng cho các best practices về bảo mật
+* Tài liệu AWS rất toàn diện nhưng cần thời gian để tiếp thu kỹ lưỡng
 
-### Thách thức gặp phải:
+### Mục tiêu tuần tới
 
-* Hiểu sự khác biệt giữa Security Groups và Network ACLs mất một chút thời gian
-* CIDR notation và tính toán subnet cần thực hành
-* Cấu hình route tables đúng cho NAT Gateway access
-
-### Bài học quan trọng:
-
-* VPC là nền tảng cho AWS networking và security
-* Thiết kế subnet đúng cách rất quan trọng cho kiến trúc có thể mở rộng
-* S3 không chỉ là storage - nó là nền tảng cho nhiều dịch vụ AWS
-* RDS đơn giản hóa quản lý database so với self-managed databases
-
-### Mục tiêu tuần tới:
-
-* Khám phá AWS Lambda và serverless computing
-* Học về CloudWatch cho monitoring
-* Bắt đầu dịch blog đầu tiên
-* Tiếp tục thực hành với hands-on labs
-
-
+* Tiếp tục với các dịch vụ database của AWS (thực hành RDS)
+* Bắt đầu công việc dịch blog (blog kỹ thuật AWS đầu tiên)
+* Khám phá AWS Lambda và các khái niệm serverless
+* Tìm hiểu sâu hơn về IAM roles và policies

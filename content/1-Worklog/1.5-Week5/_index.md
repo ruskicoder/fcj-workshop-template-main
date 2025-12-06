@@ -1,54 +1,83 @@
 ---
 title: "Week 5 Worklog"
-date: "2025-09-22"
+date: "2025-10-06"
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
+### Week 5 Objectives
 
-### Week 5 Objectives:
+* Apply VPC and S3 knowledge through hands-on labs
+* Deepen understanding of AWS RDS with practical exercises
+* Begin AWS technical blog translation work
+* Explore AWS Lambda and serverless computing concepts
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks Completed This Week
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| Monday (6/10) | **Office Workday**<br>- Hands-on lab: Create custom VPC<br>&emsp;+ Configure public and private subnets<br>&emsp;+ Set up route tables and Internet Gateway<br>- Practice S3 bucket operations<br>&emsp;+ Upload and manage objects<br>&emsp;+ Configure bucket policies and permissions | 06/10/2025 | 06/10/2025 | Lab exercises |
+| Tuesday (7/10) | - Review VPC lab results and document learnings<br>- Study AWS RDS hands-on tutorials<br>&emsp;+ Database instance creation<br>&emsp;+ Connection configuration<br>&emsp;+ Security group setup | 07/10/2025 | 07/10/2025 | [AWS RDS Getting Started](https://docs.aws.amazon.com/rds/latest/userguide/CHAP_GettingStarted.html) |
+| Wednesday (8/10) | **Office Workday**<br>- Hands-on lab: Create RDS instance<br>&emsp;+ Launch MySQL database<br>&emsp;+ Configure security groups<br>&emsp;+ Test database connectivity<br>- Introduction to AWS Lambda<br>&emsp;+ Serverless computing concepts<br>&emsp;+ Lambda function basics | 08/10/2025 | 08/10/2025 | [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/) |
+| Thursday (9/10) | - Continue Lambda exploration<br>&emsp;+ Function triggers and events<br>&emsp;+ Lambda execution environment<br>&emsp;+ IAM roles for Lambda<br>- Review serverless architecture patterns | 09/10/2025 | 09/10/2025 | [AWS Serverless](https://aws.amazon.com/serverless/) |
+| Friday (10/10) | - Begin first AWS technical blog translation<br>&emsp;+ Select appropriate blog post<br>&emsp;+ Start translation work<br>&emsp;+ Research technical terminology<br>- Review week's achievements and plan next week | 10/10/2025 | 10/10/2025 | AWS Blog posts |
 
+### Week 5 Achievements
 
-### Week 5 Achievements:
+* **Hands-on VPC Implementation**
+  * Successfully created custom VPC with proper architecture
+  * Configured public and private subnets correctly
+  * Set up route tables and Internet Gateway
+  * Validated network connectivity and routing
+  * Gained practical experience with VPC components
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **S3 Practical Skills**
+  * Created and configured S3 buckets
+  * Uploaded and managed objects successfully
+  * Implemented bucket policies for access control
+  * Practiced S3 operations through AWS Console
+  * Understood S3 security best practices
 
-* Successfully created and configured an AWS Free Tier account.
+* **RDS Database Experience**
+  * Launched first RDS MySQL instance
+  * Configured database security groups properly
+  * Established database connectivity
+  * Understood RDS backup and maintenance concepts
+  * Learned database instance management
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Serverless Computing Introduction**
+  * Grasped Lambda and serverless concepts
+  * Understood function triggers and events
+  * Learned about Lambda execution environment
+  * Explored IAM roles for Lambda functions
+  * Reviewed serverless architecture patterns
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Blog Translation Initiative**
+  * Started first AWS technical blog translation
+  * Researched AWS technical terminology in Vietnamese
+  * Developed translation workflow
+  * Enhanced technical writing skills
 
-* Used AWS CLI to perform basic operations such as:
+### Challenges Faced
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* VPC lab required careful attention to subnet CIDR blocks and routing configuration
+* RDS security group configuration needed multiple attempts to get connectivity working
+* Translating technical AWS terminology while maintaining accuracy and clarity
+* Balancing hands-on lab time with theoretical learning
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Key Learnings
+
+* Hands-on practice is essential for solidifying theoretical VPC knowledge
+* Proper security group configuration is critical for RDS connectivity
+* Serverless computing represents a paradigm shift from traditional infrastructure
+* Technical translation requires deep understanding of both source and target concepts
+* AWS services integrate seamlessly when properly configured
+
+### Next Week Goals
+
+* Continue blog translation work
+* Explore more Lambda functions and triggers
+* Learn about API Gateway and serverless APIs
+* Study CloudWatch for monitoring and logging
+* Deepen IAM knowledge with advanced policies

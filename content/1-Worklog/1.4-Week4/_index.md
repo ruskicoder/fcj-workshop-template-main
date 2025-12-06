@@ -6,90 +6,66 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Week 4 Objectives:
+### Week 4 Objectives
 
-* Deep dive into AWS VPC and networking concepts
-* Understand S3 storage service and best practices
-* Learn about RDS database services
-* Practice hands-on labs with core AWS services
+* Deepen understanding of AWS VPC and networking concepts
+* Learn about Amazon S3 storage service and best practices
+* Explore AWS database services (RDS)
+* Continue hands-on practice with core AWS services
 
-### Tasks to be carried out this week:
+### Tasks Completed This Week
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| Monday (29/9) | - Review previous week's EC2 concepts <br> - Study AWS VPC fundamentals <br>&emsp; + Subnets and CIDR blocks <br>&emsp; + Route tables <br>&emsp; + Internet Gateway | 29/09/2025 | 29/09/2025 | <https://docs.aws.amazon.com/vpc/> |
-| Tuesday (30/9) | - Continue VPC deep dive <br>&emsp; + Security Groups <br>&emsp; + Network ACLs <br>&emsp; + NAT Gateway <br> - Study VPC peering concepts | 30/09/2025 | 30/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| Wednesday (1/10) | - Introduction to Amazon S3 <br>&emsp; + Buckets and objects <br>&emsp; + Storage classes <br>&emsp; + Versioning <br> - S3 security and access control | 01/10/2025 | 01/10/2025 | <https://docs.aws.amazon.com/s3/> |
-| Thursday (2/10) | - **Practice:** S3 hands-on lab <br>&emsp; + Create S3 bucket <br>&emsp; + Upload and manage objects <br>&emsp; + Configure bucket policies <br>&emsp; + Enable versioning | 02/10/2025 | 02/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| Friday (3/10) | - Study Amazon RDS basics <br>&emsp; + Database engines (MySQL, PostgreSQL) <br>&emsp; + Multi-AZ deployments <br>&emsp; + Read replicas <br> - RDS backup and restore | 03/10/2025 | 03/10/2025 | <https://docs.aws.amazon.com/rds/> |
-| Monday (6/10) | **Office Workday** <br> - Comprehensive VPC hands-on lab <br>&emsp; + Create custom VPC with public/private subnets <br>&emsp; + Configure route tables and gateways <br>&emsp; + Set up security groups and NACLs <br> - Deploy EC2 instances in custom VPC <br> - Test connectivity between subnets | 06/10/2025 | 06/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| Monday (30/9) | - Review previous week's EC2 concepts<br>&emsp;+ Instance types and sizing<br>&emsp;+ Security groups configuration<br>- Study AWS documentation on VPC basics | 30/09/2025 | 30/09/2025 | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/) |
+| Tuesday (1/10) | - Learn VPC fundamentals<br>&emsp;+ Subnets (public vs private)<br>&emsp;+ Route tables<br>&emsp;+ Internet Gateway<br>&emsp;+ NAT Gateway | 01/10/2025 | 01/10/2025 | [AWS VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/) |
+| Wednesday (2/10) | - Study Amazon S3 service<br>&emsp;+ Bucket creation and management<br>&emsp;+ Object storage concepts<br>&emsp;+ S3 storage classes<br>&emsp;+ Access control and permissions | 02/10/2025 | 02/10/2025 | [AWS S3 Documentation](https://docs.aws.amazon.com/s3/) |
+| Thursday (3/10) | - Continue S3 deep dive<br>&emsp;+ Versioning and lifecycle policies<br>&emsp;+ S3 encryption options<br>&emsp;+ Static website hosting | 03/10/2025 | 03/10/2025 | [AWS S3 Best Practices](https://docs.aws.amazon.com/AmazonS3/latest/userguide/best-practices.html) |
+| Friday (4/10) | - Introduction to AWS RDS<br>&emsp;+ Database engine options<br>&emsp;+ RDS instance types<br>&emsp;+ Backup and restore concepts<br>- Review and consolidate week's learning | 04/10/2025 | 04/10/2025 | [AWS RDS Documentation](https://docs.aws.amazon.com/rds/) |
 
-### Week 4 Achievements:
+### Week 4 Achievements
 
-* Gained comprehensive understanding of AWS VPC architecture:
-  * CIDR notation and IP addressing
-  * Public vs private subnets
-  * Route table configuration
-  * Internet Gateway and NAT Gateway differences
-  * VPC peering for inter-VPC communication
+* **VPC Networking Mastery**
+  * Understood VPC architecture and components
+  * Learned the difference between public and private subnets
+  * Grasped routing concepts with route tables
+  * Understood how Internet Gateway and NAT Gateway work
 
-* Mastered VPC security components:
-  * Security Groups (stateful firewall)
-  * Network ACLs (stateless firewall)
-  * Difference between Security Groups and NACLs
-  * Best practices for network security
+* **Amazon S3 Proficiency**
+  * Learned S3 storage concepts and use cases
+  * Understood different S3 storage classes (Standard, IA, Glacier)
+  * Practiced bucket creation and object management
+  * Configured bucket policies and access controls
+  * Explored S3 versioning and lifecycle management
+  * Learned about S3 encryption options (SSE-S3, SSE-KMS)
 
-* Learned Amazon S3 storage service:
-  * S3 bucket creation and management
-  * Object storage concepts
-  * Storage classes (Standard, IA, Glacier)
-  * Versioning and lifecycle policies
-  * Bucket policies and IAM permissions
+* **Database Services Introduction**
+  * Gained overview of AWS RDS service
+  * Understood different database engine options (MySQL, PostgreSQL, etc.)
+  * Learned about RDS instance sizing and configuration
+  * Explored backup and restore capabilities
 
-* Completed hands-on S3 lab:
-  * Created and configured S3 buckets
-  * Uploaded objects and managed permissions
-  * Implemented bucket policies for access control
-  * Enabled versioning for data protection
+* **Practical Skills Development**
+  * Improved understanding of AWS networking architecture
+  * Enhanced ability to navigate AWS documentation effectively
+  * Prepared for hands-on labs in upcoming week
 
-![S3 Bucket Configuration](/images/week4/s3-bucket-setup.png)
-*S3 bucket configuration with versioning enabled*
+### Challenges Faced
 
-* Understood Amazon RDS fundamentals:
-  * Managed database service benefits
-  * Supported database engines
-  * Multi-AZ for high availability
-  * Read replicas for performance scaling
-  * Automated backups and point-in-time recovery
+* VPC routing concepts initially seemed complex, especially understanding the relationship between route tables, subnets, and gateways
+* S3 bucket policies and IAM permissions required careful attention to avoid access issues
+* Balancing theoretical learning with practical hands-on time
 
-* Successfully completed comprehensive VPC lab on office workday (6/10):
-  * Created custom VPC with CIDR 10.0.0.0/16
-  * Configured public subnet (10.0.1.0/24) and private subnet (10.0.2.0/24)
-  * Set up Internet Gateway for public subnet
-  * Configured NAT Gateway for private subnet internet access
-  * Created and configured route tables
-  * Deployed EC2 instances in both subnets
-  * Tested connectivity and security group rules
+### Key Learnings
 
-![VPC Architecture](/images/week4/vpc-architecture.png)
-*Custom VPC architecture with public and private subnets*
+* VPC is fundamental to AWS networking and security architecture
+* S3 is incredibly versatile beyond simple storage - can host static websites, serve as data lake, etc.
+* Proper subnet design (public vs private) is crucial for security best practices
+* AWS documentation is comprehensive but requires time to digest thoroughly
 
-### Challenges Faced:
+### Next Week Goals
 
-* Understanding the difference between Security Groups and Network ACLs took some time
-* CIDR notation and subnet calculation required practice
-* Configuring route tables correctly for NAT Gateway access
-
-### Key Learnings:
-
-* VPC is fundamental to AWS networking and security
-* Proper subnet design is crucial for scalable architecture
-* S3 is more than just storage - it's a platform for many AWS services
-* RDS simplifies database management compared to self-managed databases
-
-### Next Week Goals:
-
-* Explore AWS Lambda and serverless computing
-* Learn about CloudWatch for monitoring
-* Start first blog translation
-* Continue practicing with hands-on labs
+* Continue with AWS database services (RDS hands-on)
+* Start blog translation work (first AWS technical blog)
+* Explore AWS Lambda and serverless concepts
+* Deepen understanding of IAM roles and policies

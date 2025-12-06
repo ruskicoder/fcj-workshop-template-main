@@ -1,54 +1,90 @@
 ---
 title: "Week 10 Worklog"
-date: "2025-09-22"
+date: "2025-11-10"
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
+### Week 10 Objectives
 
-### Week 10 Objectives:
+* Continue team project development
+* Implement core project features
+* Attend AWS Cloud Mastery Series #1 on AI/ML/GenAI
+* Maintain team coordination and documentation
+* Adapt workflow after injury incident
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks Completed This Week
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| Monday (10/11) | **Team Project Development**<br>- Team meeting and progress review<br>- Continue project implementation<br>- Develop core features<br>- Code review and integration<br>- Update project documentation | 10/11/2025 | 10/11/2025 | Project repository |
+| Tuesday (11/11) | **Office Workday - Project Sprint**<br>- Intensive development session at office<br>- Implement key project components<br>- Team collaboration and pair programming<br>- Resolve technical challenges<br>- Test and debug features<br>- Coordinate with team members | 11/11/2025 | 11/11/2025 | Project development |
+| Wednesday (12/11) | **Team Project Coordination**<br>- Remote team meeting<br>- Progress updates and status sync<br>- Address blockers and issues<br>- Plan remaining development tasks<br>- Prepare for weekend AWS event | 12/11/2025 | 12/11/2025 | Team collaboration |
+| Thursday (13/11) | **Project Development & Testing**<br>- Continue feature implementation<br>- Write and run tests<br>- Bug fixes and improvements<br>- Documentation updates<br>- Code quality review | 13/11/2025 | 13/11/2025 | Development work |
+| Friday (14/11) | **Hand Injury Accident**<br>- Accident occurred during the day<br>- Hospitalized and received medical treatment<br>- Got cast for hand injury<br>- Unable to continue normal work<br>- Informed team about situation | 14/11/2025 | 14/11/2025 | Medical treatment |
+| Saturday (15/11) | **AWS Cloud Mastery Series #1 - AI/ML/GenAI**<br>**Time:** 8:30 AM - 12:00 PM<br>**Location:** AWS Vietnam Office, Bitexco Financial Tower<br>**Despite injury, attended event**<br><br>**Morning Session:**<br>- Welcome & AI/ML landscape in Vietnam<br>- AWS AI/ML Services Overview<br>&emsp;+ Amazon SageMaker platform<br>&emsp;+ Data preparation and labeling<br>&emsp;+ Model training, tuning, deployment<br>&emsp;+ MLOps capabilities<br>&emsp;+ Live Demo: SageMaker Studio<br><br>**After Coffee Break:**<br>- Generative AI with Amazon Bedrock<br>&emsp;+ Foundation Models (Claude, Llama, Titan)<br>&emsp;+ Prompt Engineering techniques<br>&emsp;+ RAG (Retrieval Augmented Generation)<br>&emsp;+ Bedrock Agents<br>&emsp;+ Guardrails<br>&emsp;+ Live Demo: GenAI chatbot with Bedrock | 15/11/2025 | 15/11/2025 | AWS Cloud Mastery #1 |
 
+### Week 10 Achievements
 
-### Week 10 Achievements:
+* **Team Project Progress**
+  * Implemented core project features
+  * Conducted successful team development sprint
+  * Integrated multiple components
+  * Performed code reviews and testing
+  * Maintained project documentation
+  * Coordinated effectively despite challenges
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **AWS Cloud Mastery Series #1 - AI/ML/GenAI**
+  * Attended comprehensive AI/ML workshop at AWS office
+  * Learned Amazon SageMaker end-to-end ML platform
+  * Understood ML model lifecycle (training, tuning, deployment)
+  * Explored MLOps capabilities
+  * Witnessed live SageMaker Studio demo
+  * Learned Generative AI with Amazon Bedrock
+  * Understood Foundation Models (Claude, Llama, Titan)
+  * Learned Prompt Engineering techniques
+  * Explored RAG architecture
+  * Understood Bedrock Agents and Guardrails
+  * Saw live GenAI chatbot demo
 
-* Successfully created and configured an AWS Free Tier account.
+* **Adaptability and Resilience**
+  * Managed unexpected injury professionally
+  * Informed team promptly about situation
+  * Attended AWS event despite physical limitation
+  * Demonstrated commitment to learning
+  * Adapted workflow to accommodate injury
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+### Challenges Faced
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Hand injury on Friday significantly impacted ability to code
+* Physical limitation affecting typing and hands-on work
+* Balancing medical needs with project commitments
+* Attending AWS event with injury required extra effort
+* Coordinating with team while managing recovery
 
-* Used AWS CLI to perform basic operations such as:
+### Key Learnings
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Technical:**
+  * SageMaker provides comprehensive ML platform
+  * MLOps is crucial for production ML systems
+  * Generative AI opens new possibilities with Foundation Models
+  * Prompt Engineering is key skill for GenAI applications
+  * RAG enhances LLM capabilities with custom knowledge
+  * Bedrock simplifies GenAI application development
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Personal:**
+  * Adaptability is crucial when facing unexpected challenges
+  * Team support is invaluable during difficult times
+  * Commitment to learning transcends physical limitations
+  * Communication is key when circumstances change
+  * Health and safety should always be prioritized
+
+### Next Week Goals
+
+* Continue project work with adapted workflow
+* Focus on tasks that accommodate physical limitation
+* Attend doctor revisit appointment (21/11)
+* Attend AWS Cloud Mastery Series #2 on DevOps (17/11)
+* Maintain team coordination and communication
+* Gradually resume normal activities as recovery permits

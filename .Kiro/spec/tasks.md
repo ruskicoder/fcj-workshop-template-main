@@ -13,15 +13,15 @@
 - [x] 2.1 Week 1 (8-14/9/2025): Update `content/1-Worklog/1.1-Week1/_index.md` and `_index.vi.md`
 - [x] 2.2 Week 2 (15-21/9/2025): Update `content/1-Worklog/1.2-Week2/_index.md` and `_index.vi.md`
 - [x] 2.3 Week 3 (22-28/9/2025): Update `content/1-Worklog/1.3-Week3/_index.md` and `_index.vi.md`
-- [ ] 2.4 Week 4 (29/9-5/10/2025): Update `content/1-Worklog/1.4-Week4/_index.md` and `_index.vi.md`
-- [ ] 2.5 Week 5 (6-12/10/2025): Update `content/1-Worklog/1.5-Week5/_index.md` and `_index.vi.md`
-- [ ] 2.6 Week 6 (13-19/10/2025): Update `content/1-Worklog/1.6-Week6/_index.md` and `_index.vi.md`
-- [ ] 2.7 Week 7 (20-26/10/2025): Update `content/1-Worklog/1.7-Week7/_index.md` and `_index.vi.md`
-- [ ] 2.8 Week 8 (27/10-2/11/2025): Update `content/1-Worklog/1.8-Week8/_index.md` and `_index.vi.md`
-- [ ] 2.9 Week 9 (3-9/11/2025): Update `content/1-Worklog/1.9-Week9/_index.md` and `_index.vi.md`
-- [ ] 2.10 Week 10 (10-16/11/2025): Update `content/1-Worklog/1.10-Week10/_index.md` and `_index.vi.md`
-- [ ] 2.11 Week 11 (17-23/11/2025): Update `content/1-Worklog/1.11-Week11/_index.md` and `_index.vi.md`
-- [ ] 2.12 Week 12 (24-30/11/2025): Update `content/1-Worklog/1.12-Week12/_index.md` and `_index.vi.md`
+- [x] 2.4 Week 4 (29/9-5/10/2025): Update `content/1-Worklog/1.4-Week4/_index.md` and `_index.vi.md`
+- [x] 2.5 Week 5 (6-12/10/2025): Update `content/1-Worklog/1.5-Week5/_index.md` and `_index.vi.md`
+- [x] 2.6 Week 6 (13-19/10/2025): Update `content/1-Worklog/1.6-Week6/_index.md` and `_index.vi.md`
+- [x] 2.7 Week 7 (20-26/10/2025): Update `content/1-Worklog/1.7-Week7/_index.md` and `_index.vi.md`
+- [x] 2.8 Week 8 (27/10-2/11/2025): Update `content/1-Worklog/1.8-Week8/_index.md` and `_index.vi.md`
+- [x] 2.9 Week 9 (3-9/11/2025): Update `content/1-Worklog/1.9-Week9/_index.md` and `_index.vi.md`
+- [x] 2.10 Week 10 (10-16/11/2025): Update `content/1-Worklog/1.10-Week10/_index.md` and `_index.vi.md`
+- [x] 2.11 Week 11 (17-23/11/2025): Update `content/1-Worklog/1.11-Week11/_index.md` and `_index.vi.md`
+- [x] 2.12 Week 12 (24-30/11/2025): Update `content/1-Worklog/1.12-Week12/_index.md` and `_index.vi.md`
 - [ ] 2.13 Update `content/3-BlogsTranslated/3.1-Blog1/_index.md` and `_index.vi.md`
 - [ ] 2.14 Update `content/3-BlogsTranslated/3.2-Blog2/_index.md` and `_index.vi.md`
 - [ ] 2.15 Update `content/3-BlogsTranslated/3.3-Blog3/_index.md` and `_index.vi.md`
