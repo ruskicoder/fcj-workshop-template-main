@@ -7,43 +7,43 @@ This document provides quick reference to all source data from `sources/workdays
 ## Workdays Calendar (2025)
 
 ### September
-- **9/9** (Tuesday) - Week 1
-- **14/9** (Sunday) - Week 1
-- **21/9** (Sunday) - Week 2
-- **22/9** (Monday) - Week 3
+- **10/9** (Wednesday) - Week 1 - Actual workday
+- **15/9** (Monday) - Week 2 - Actual workday
+- **22/9** (Monday) - Week 2 - Actual workday
+- **23/9** (Tuesday) - Week 3 - Actual workday
 
 ### October  
-- **5/10** (Sunday) - Week 4
-- **7/10** (Tuesday) - Week 5
-- **28/10** (Tuesday) - Week 8 - **OFF due to heavy rain**
-- **29/10** (Wednesday) - Week 8
-- **30/10** (Thursday) - Week 8 - **Midterm exam (not office workday)**
+- **6/10** (Monday) - Week 4 - Actual workday
+- **8/10** (Wednesday) - Week 5 - Actual workday
+- **29/10** (Wednesday) - Week 8 - **OFF due to heavy rain (registered 28/10)**
+- **30/10** (Thursday) - Week 8 - Actual workday
+- **31/10** (Friday) - Week 8 - **Midterm exam (not office workday, registered 30/10)**
 
 ### November
 - **5/11** (Wednesday) - Week 9 - **Team project starts**
-- **9/11** (Sunday) - Week 9
-- **10/11** (Monday) - Week 10
+- **10/11** (Monday) - Week 9 - Actual workday
+- **11/11** (Tuesday) - Week 10 - Actual workday
 - **14/11** (Friday) - Week 10 - **Hand injury accident**
 
 ### December
-- **2/12** (Tuesday) - Week 12 (falls after Week 12 ends)
+- **3/12** (Wednesday) - Week 12 - Actual workday (registered 2/12)
 
 ## Week-by-Week Workday Mapping
 
-| Week | Dates | Workdays | Special Notes |
-|------|-------|----------|---------------|
-| Week 1 | 8-14/9/2025 | 9/9, 14/9 | Kick-off event on 6/9 (Saturday before week starts) |
-| Week 2 | 15-21/9/2025 | 21/9 | |
-| Week 3 | 22-28/9/2025 | 22/9 | |
-| Week 4 | 29/9-5/10/2025 | 5/10 | Fill with typical learning |
-| Week 5 | 6-12/10/2025 | 7/10 | Start blog translations |
+| Week | Dates | Actual Workdays | Special Notes |
+|------|-------|-----------------|---------------|
+| Week 1 | 8-14/9/2025 | 10/9 | Kick-off event on 6/9 (Saturday before week starts) |
+| Week 2 | 15-21/9/2025 | 15/9, 22/9 | 22/9 falls on Sunday but is workday |
+| Week 3 | 22-28/9/2025 | 23/9 | |
+| Week 4 | 29/9-5/10/2025 | 6/10 | Fill with typical learning |
+| Week 5 | 6-12/10/2025 | 8/10 | Start blog translations |
 | Week 6 | 13-19/10/2025 | None | Data Science workshop 16/10 |
 | Week 7 | 20-26/10/2025 | None | Fill with typical learning |
-| Week 8 | 27/10-2/11/2025 | 28/10, 29/10, 30/10 | 28/10 off (rain), 30/10 midterm |
-| Week 9 | 3-9/11/2025 | 5/11, 9/11 | Team project starts 5/11 |
-| Week 10 | 10-16/11/2025 | 10/11, 14/11 | Injury on 14/11, Mastery #1 on 15/11 |
-| Week 11 | 17-23/11/2025 | 21/11 | Mastery #2 on 17/11, doctor 21/11 |
-| Week 12 | 24-30/11/2025 | 2/12 | Mastery #3 on 29/11, doctor 5/12 (after week ends) |
+| Week 8 | 27/10-2/11/2025 | 29/10 (off-rain), 30/10, 31/10 (midterm) | 29/10 off due to rain, 31/10 midterm not office |
+| Week 9 | 3-9/11/2025 | 5/11, 10/11 | Team project starts 5/11 |
+| Week 10 | 10-16/11/2025 | 11/11 | Injury on 14/11, Mastery #1 on 15/11 |
+| Week 11 | 17-23/11/2025 | None | Mastery #2 on 17/11, doctor 21/11 |
+| Week 12 | 24-30/11/2025 | 3/12 | Mastery #3 on 29/11, doctor 5/12, 3/12 after week ends |
 
 ## Events Timeline
 

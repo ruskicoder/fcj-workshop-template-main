@@ -32,15 +32,15 @@ This document provides guidance for filling in worklog content for the AWS First
 - Evening: Review and documentation
 ```
 
-**Confirmed Workdays (2025):**
-- 9/9, 14/9, 21/9, 22/9
-- 5/10, 7/10, 29/10
-- 9/11, 10/11
-- 2/12
+**Actual Workdays (2025) - Registration date +1 day:**
+- 10/9, 15/9, 22/9, 23/9
+- 6/10, 8/10, 30/10
+- 10/11, 11/11
+- 3/12
 
 **Special Cases:**
-- 28/10: Off due to heavy rain (home day)
-- 30/10: Midterm exam (not office workday)
+- 29/10: Off due to heavy rain (registered 28/10, home day)
+- 31/10: Midterm exam (registered 30/10, not office workday)
 
 ### Home Days
 **Characteristics:**

@@ -13,3 +13,5 @@ workdays:
 9/11
 10/11
 2/12
+
+Note: the days above is registration date for the next day, meaning actual workday is 1 day ahead.

@@ -1,85 +1,65 @@
 # Hugo Worklog Editing Guidelines
 
-## CRITICAL: User Information Gathering Requirement
+## AUTOMATED WORKFLOW: Source-First Approach
 
-**MANDATORY STEP BEFORE ANY WORKLOG UPDATE:**
-
-Before updating any week's worklog content, the AI MUST ask the user for the following specific information:
-
-### Required Information to Collect:
-
-1. **Week Title**: What is a descriptive title that summarizes the main activities of this week? (e.g., "Development Environment Setup and AWS Cloud Day 2025")
-
-2. **Week Date Range**: What are the start and end dates for this week? (e.g., "Week X is from DD-DD/MMM/YYYY")
-
-3. **Daily Activities**: For each day of the week, what activities were performed?
-   - Day 1: [activities]
-   - Day 2: [activities]
-   - Day 3: [activities]
-   - etc.
-
-4. **Learning Outcomes**: What did you learn this week?
-   - Technical skills acquired
-   - AWS services explored
-   - Tools and technologies used
-
-5. **Challenges**: What challenges or difficulties did you face?
-
-6. **Achievements**: What did you accomplish or complete?
-
-7. **Additional Context**:
-   - Any GitHub repos created?
-   - Any specific AWS services used? (EC2, S3, Lambda, etc.)
-   - Any workshops attended?
-   - Any blog translations completed?
-
-8. **Images**: Do you have any screenshots or images to include? If yes, what should they show?
+**NEW WORKFLOW:** The AI uses available source data to automatically generate worklog content, then asks for user confirmation.
 
 ### AI Behavior Rules:
 
-- ❌ **NEVER** proceed with updating worklog content without first collecting this information from the user
-- ❌ **NEVER** assume or fabricate worklog activities
-- ❌ **NEVER** use generic placeholder content without user confirmation
-- ✅ **ALWAYS** ask the user for specific details before writing content
-- ✅ **ALWAYS** confirm the information with the user before finalizing the update
-- ✅ **ALWAYS** allow the user to modify or add to the content during the process
+- ✅ **ALWAYS** read source files first (`sources/workdays.md`, `sources/events.md`)
+- ✅ **ALWAYS** use `source_data_reference.md` for week-specific details
+- ✅ **ALWAYS** apply `worklog_content_strategy.md` for content patterns
+- ✅ **ALWAYS** auto-generate content based on sources and guidelines
+- ✅ **ALWAYS** present completed work to user for confirmation
+- ✅ **ALWAYS** update content based on explicit user requests
+- ❌ **NEVER** ask user for information already in source files
+- ❌ **NEVER** wait for user input before generating initial content
+- ❌ **NEVER** fabricate activities without basis in sources or strategy
+
+### Workflow Steps:
+
+1. **Read Sources** → Gather workdays, events, and week-specific data
+2. **Generate Content** → Create worklog based on sources and strategy
+3. **Present to User** → Show summary and ask for confirmation
+4. **Handle Response** → If approved, mark complete; if changes requested, update accordingly
 
 ### Example User Interaction:
 
 ```
-AI: "I'm ready to update Week X worklog. Please provide the following information:
+User: "Update Week 2"
 
-**Week Date Range:** When did Week X start and end?
+AI: [Reads sources automatically]
+    [Generates content based on workdays.md, events.md, and strategy]
+    [Updates both English and Vietnamese files]
+    
+    "I've updated Week 2 worklog (15-21/9/2025) with:
+    
+    Workdays: 21/9 (office)
+    Key Activities: AWS account setup, IAM basics, EC2 introduction
+    AWS Services: IAM, EC2
+    
+    Files updated:
+    - content/1-Worklog/1.2-Week2/_index.md
+    - content/1-Worklog/1.2-Week2/_index.vi.md
+    
+    Would you like me to make any changes?"
 
-**Daily Activities:** What did you do each day of the week?
-- Day 1 (Date):
-- Day 2 (Date):
-- Day 3 (Date):
-[etc.]
+User: "Yes, looks good" → AI marks complete
 
-**Learning Outcomes:** What did you learn this week?
+OR
 
-**Challenges:** What difficulties did you encounter?
-
-**Achievements:** What did you accomplish?
-
-**AWS Services Used:** Which AWS services did you work with?
-
-**Images:** Do you have any screenshots to include? If yes, please describe what they should show.
-
-**Blog Translations:** Did you translate any blogs this week?
-
-**Workshops:** Did you attend any workshops this week?"
+User: "Add more about VPC" → AI updates and presents again
 ```
 
 ## General Documentation Principles
 
+- Use source files (`workdays.md`, `events.md`) as primary data source
+- Apply content strategy from `worklog_content_strategy.md` for realistic content
+- Fill gaps with typical AWS learning activities (not fabrication, but reasonable assumptions)
 - Create placeholder for images when documenting worklog entries
-- Document based ONLY on information provided by the user
-- Add necessary details to fulfill the worklog requirements, but do not exaggerate
 - Maintain professional tone throughout all documentation
 - Ensure consistency between English and Vietnamese versions
-- Never fabricate or assume activities without user confirmation, however if necessary add a few more details to fulfill the worklog, but do not exaggerate it.
+- Balance between documented facts and reasonable learning progression
 
 ## Hugo Front Matter Format
 
