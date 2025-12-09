@@ -536,3 +536,18 @@ My hand got broken.
 ---
 
 Team workshop & project started at 5/11/2025, onwards no longer study AWS, focused on project & team meetings
+
+
+1.AWS Vietnam CloudDays: 18/9
+
+2.AI-Driven Development Life Cycle 3/10
+
+3.Workshop Data Science on AWS 16/10
+
+4.AWS Mastery 1: AWS AI/ML & GenAI Workshop 15/11
+
+5.AWS Mastery 2: AWS DevOps & Modern Operations 17/11
+
+6.AWS Mastery 3: AWS Security Specialty Workshop
+
+7.CloudThinker: Agentic AI & Orchestration trên AWS
