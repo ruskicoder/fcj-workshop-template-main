@@ -25,14 +25,14 @@
 - [ ] 2.13 Update `content/3-BlogsTranslated/3.1-Blog1/_index.md` and `_index.vi.md`
 - [ ] 2.14 Update `content/3-BlogsTranslated/3.2-Blog2/_index.md` and `_index.vi.md`
 - [ ] 2.15 Update `content/3-BlogsTranslated/3.3-Blog3/_index.md` and `_index.vi.md`
-- [ ] 2.16 Update `content/3-BlogsTranslated/3.4-Blog4/_index.md` and `_index.vi.md`
-- [ ] 2.17 Update `content/3-BlogsTranslated/3.5-Blog5/_index.md` and `_index.vi.md`
-- [ ] 2.18 Update `content/3-BlogsTranslated/3.6-Blog6/_index.md` and `_index.vi.md`
+- [x] 2.16 Update `content/3-BlogsTranslated/3.4-Blog4/_index.md` and `_index.vi.md`
+- [x] 2.17 Update `content/3-BlogsTranslated/3.5-Blog5/_index.md` and `_index.vi.md`
+- [x] 2.18 Update `content/3-BlogsTranslated/3.6-Blog6/_index.md` and `_index.vi.md`
 
 ### Task 3: Update All Events and Workshop Content
 
 - [ ] 3.1 Update `content/4-EventParticipated/4.1-Event1/_index.md` and `_index.vi.md` (AWS FCJ Kick-off 6/9)
-- [ ] 3.2 Update `content/4-EventParticipated/4.2-Event2/_index.md` and `_index.vi.md` (AWS Cloud Day 2025)
+- [x] 3.2 Update `content/4-EventParticipated/4.2-Event2/_index.md` and `_index.vi.md` (AWS Cloud Day 2025)
 - [ ] 3.3 Create/update additional event entries (Data Science workshop 16/10, Cloud Mastery #1-3)
 - [ ] 3.4 Update `content/5-Workshop/5.1-Workshop-overview/_index.md` and `_index.vi.md`
 - [ ] 3.5 Update `content/5-Workshop/5.2-Prerequiste/_index.md` and `_index.vi.md`
