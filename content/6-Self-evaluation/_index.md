@@ -6,14 +6,11 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During my internship with the **AWS First Cloud Journey Program** from **September 2025** to **December 2025**, I had the opportunity to learn, practice, and apply cloud computing knowledge in a structured learning environment focused on AWS services and technologies.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+I participated in **comprehensive AWS cloud learning activities**, including hands-on labs with core AWS services (EC2, S3, VPC, RDS, Lambda), attended multiple AWS events and workshops, translated technical AWS blogs from English to Vietnamese, and collaborated on a team project implementing cloud solutions. Through these activities, I improved my skills in **cloud architecture, technical documentation, translation, problem-solving, and teamwork**.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+In terms of work ethic, I consistently completed weekly learning objectives, maintained detailed worklogs, actively participated in AWS community events, and collaborated effectively with team members on the final project.
 
 To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
 
